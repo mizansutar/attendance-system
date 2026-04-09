@@ -6,6 +6,29 @@
   font-family: "Segoe UI", sans-serif;
 }
 
+/* BUTTON */
+.clear-btn {
+  margin-bottom: 20px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4d4d;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clear-btn:hover {
+  background: #ff1a1a;
+}
+
+.clear-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* CARD */
 .table-card {
   padding: 25px;
   background: rgba(255,255,255,0.12);
@@ -15,7 +38,6 @@
 }
 
 /* TABLE */
-
 table {
   width: 100%;
   border-collapse: collapse;
